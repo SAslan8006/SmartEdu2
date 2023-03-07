@@ -1,0 +1,41 @@
+{
+  "name": "smartedu",
+  "version": "1.0.0",
+  "description": "Education Portal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SAslan8006/SmartEdu.git"
+  },
+  "keywords": [
+    "education",
+    "portal",
+    "node.js"
+  ],
+  "author": "Süleyman Aslan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SAslan8006/SmartEdu/issues"
+  },
+  "homepage": "https://github.com/SAslan8006/SmartEdu#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-flash": "^0.1.1",
+    "connect-mongo": "^4.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "express-validator": "^6.14.3",
+    "method-override": "^3.0.0",
+    "mongoose": "^6.9.0",
+    "nodemailer": "^6.9.1",
+    "slugify": "^1.6.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
